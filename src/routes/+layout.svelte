@@ -1,7 +1,8 @@
+<script>
+  import "../app.css";
+</script>
+
 <svelte:head>
-	<meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <title>Umar Gora</title>
   <meta content="Founder, engineer, and traveller." name="description" />
   <meta content="index, follow" name="robots" />
@@ -26,5 +27,4 @@
   />
 </svelte:head>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<slot></slot>
